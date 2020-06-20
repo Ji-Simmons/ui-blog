@@ -19,8 +19,18 @@ export default class Specs extends RC {
 <Header />
 
 <Page>
-                <h3>Rollin' in my five point oh.</h3>
-                
+<div className="background">
+                <h1 className="title">1999 Larson SEi 176</h1>
+                <h3>
+                    <ul>
+                        <li>Length: 17'6"</li>
+                        <li>Beam: 7'3"</li>
+                        <li>Draft: 2'6"</li>
+                        <li>Displacement: 1850 lbs. dry</li>
+                        <li>Engine/drive: 130 HP 3.0L Volvo Penta SX</li>
+                    </ul>
+                </h3>
+</div>
                     
                     
                     

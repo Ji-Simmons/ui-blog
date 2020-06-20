@@ -1,7 +1,7 @@
 import React, {Component as RC} from 'react';
 import Logo from './Logo';
 import Navigation from './Navigation/Navigation';
-import LoginButton from './LoginButton';
+
 
 export class Simple extends RC {
     render()
@@ -21,7 +21,7 @@ export default class Header extends RC {
             <header className="main-header">
                 <Logo />
                 <Navigation />
-                <LoginButton />
+               
             </header>
         )
     }

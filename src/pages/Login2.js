@@ -1,38 +1,16 @@
-import React, {Component as RC} from 'react';
+/*import React, {Component as RC} from 'react';
 import Page from '../components/Page';
 import {LoggedInContext} from '../Context';
 import {Redirect} from 'react-router-dom';
 import "../components/Post.css";
-import axios from 'axios';
-import ReactDOM from 'react-dom';
-//import { BrowserRouter as Router, Switch, Route, Link,  } from "react-router-dom";
-
-
 
 export default class Login extends RC {
     constructor(props)
     {
         super(props);
-        this.signIn = this.signIn.bind(this);
-      this.handlePasswordChange = this.handlePasswordChange.bind(this);
-      this.state = {
-        password:''
+        this.state = {
+          password: ''
       };
-    }
-    signIn(){
-      axios.post('/signin', {
-        password: this.state.password
-      })
-      .then(function (response) {
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-    }
-    
-    handlePasswordChange(e){
-      this.setState({password:e.target.value})
     }
     render()
     {
@@ -48,10 +26,13 @@ export default class Login extends RC {
             <Page>
               <form>
                 <h3>Sign in to make a blog post.</h3>
-                  <input type="password" onChange={this.handlePasswordChange} id="inputPassword" className="form-control" placeholder="assword" required />
+             
+                    
+                    <label>Password</label>
+                    <input type="password" onChange={this.handlePasswordChange} id="inputPassword" className="form-control" placeholder="Password" required />
                 </form>
                 <p>
-                    <button onClick={this.signIn}>Login</button></p>
+                    <button onClick={this.props.login}>Login</button></p>
                 
                 
             </Page>
@@ -60,7 +41,7 @@ export default class Login extends RC {
     }
 }
 
-Login.contextType = LoggedInContext;
+Login.contextType = LoggedInContext; */
 
 /* import React, {Component as RC} from 'react';
 import Page from '../components/Page';
@@ -140,3 +121,5 @@ export default class Login extends RC {
         document.getElementById("root")
       );
       */
+
+      

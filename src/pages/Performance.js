@@ -19,8 +19,16 @@ export default class Performance extends RC {
 <Header />
 
 <Page>
-                <h3>Pop goes the weasel 'cuz the weasel goes pop.</h3>
-                
+<div className="background">
+                <h3>
+                    <ul>
+                        <li>Top speed: 35ish knots</li>
+                        <li>Cruise speed: TBD</li>
+                        <li>Fuel burn: TBD</li>
+                        <li>Range: Until you need to paddle back to the dock</li>
+                    </ul>
+                </h3>
+                </div>
                     
                     
                     

@@ -1,9 +1,5 @@
 export default [
     {
-        label: 'Login',
-        route: '/Login',
-    },
-    {
         label: 'Home',
         route: '/Home',
     },
@@ -35,6 +31,8 @@ export default [
     {
         label: 'Our Gear',
         route: '/Gear',
-    } 
+    },
+    
+    
     
 ]

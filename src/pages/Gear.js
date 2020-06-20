@@ -2,6 +2,7 @@ import React, {Component as RC} from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Page from '../components/Page';
+import "../App.scss";
 // import Banner from '../components/Banner';
 
 export default class Gear extends RC {
@@ -12,16 +13,16 @@ export default class Gear extends RC {
     render()
     {
         return(
-            <gear className="Gear">
+            <gear>
                 
 
 
 <Header />
 
 <Page>
-                <h3>Well I be comin' around the mountain with my ho Suzanna.
-I'm peelin off the caps like the hicks in Alabama.</h3>
-                
+    <div className="background">
+                <h3>Stuff we use aboard to make life safer and easier.</h3>
+                </div>
                     
                     
                     

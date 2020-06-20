@@ -19,8 +19,9 @@ export default class AboutUs extends RC {
 <Header />
 
 <Page>
-                <h3>I asked the guy, "Why you so fly?" He said, "Funky Cold Medina."</h3>
-                
+<div className="background">
+                <h3>Hi there.  We're Ji and Conni Simmons.  More will be added here later.</h3>
+                </div>
                     
                     
                     
