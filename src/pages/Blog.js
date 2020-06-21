@@ -1,5 +1,4 @@
 import React, { Component as RC } from 'react';
-import Page from '../components/Page';
 import '../App.scss';
 import axios from 'axios';
 import '../App.scss';
