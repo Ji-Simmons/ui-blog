@@ -7,3 +7,7 @@ export const HistoryContext = React.createContext([]);
 
 export const MergedContext = React.createContext({});
 export const MenuContext = React.createContext('');
+
+export default {
+    apiPath: 'https://blog-api.netlify.app/'
+};
