@@ -15,7 +15,7 @@ export default class Blog extends RC {
     };
     getHistory() {
         axios
-       // This is where the data is hosted
+       // This is where the data is hosted When local because Conni said so
             //.get('http://localhost:5555/api/boats')
             // when it's live:
             .get('https://blog-api1.herokuapp.com/') 
