@@ -68,3 +68,44 @@ flex-flow: column;
 // Gear css stuff below
 
 
+// Boat comparison css stuff below
+
+.t0 {
+  margin: 40px 800px 40px 20px;
+  border: 2px solid black;
+  border-radius: 40px;
+  padding: 25px;
+  background: rgba(255,255,255, 0.4);
+  
+  
+}
+
+.picture {
+  max-width: 640px;
+  height: auto;
+  justify-content: left;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.t1 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+
+.t2 {
+  font-size: 19px;
+  text-indent: 80px;
+  text-align: left;
+  border-bottom: 1px solid blue;
+  position: relative;
+}
+
+.border {
+  border-bottom: 1px solid blue;
+  position: relative;
+  left: 0;
+  right: 50%;
+}

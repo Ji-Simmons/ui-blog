@@ -32,6 +32,10 @@ export default [
         label: 'Our Gear',
         route: '/Gear',
     },
+    {
+        label: 'Boat Comparison',
+        route: '/Boats',
+    },
     
     
     
