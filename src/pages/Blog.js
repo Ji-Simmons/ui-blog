@@ -15,8 +15,10 @@ export default class Blog extends RC {
     };
     getHistory() {
         axios
-        // This is where the data is hosted
-        .get('http://localhost:5555/api/history')
+       // This is where the data is hosted
+            //.get('http://localhost:5555/api/boats')
+            // when it's live:
+            .get('https://blog-ui1.herokuapp.com/')
         // Once we get a response and store data, let's change the loading state
         .then(response => {
             console.log(response);
