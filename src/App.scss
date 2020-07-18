@@ -90,21 +90,23 @@ flex-flow: column;
 
 .t1 {
   font-size: 20px;
+  text-indent: 0px;
   font-style: italic;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 .t2 {
   font-size: 19px;
-  text-indent: 80px;
-  text-align: left;
-  border-bottom: 1px solid blue;
+  text-indent: 0px;
+  text-align: center;
+  border-bottom: 2px solid blue;
+  border-radius: 50px;
   position: relative;
 }
 
 .border {
-  border-bottom: 1px solid blue;
+  
   position: relative;
   left: 0;
   right: 50%;
