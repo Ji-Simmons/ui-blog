@@ -47,11 +47,8 @@
 }
 
 .nav-item:hover {
-  background-color: rgb(202, 161, 98);
+  background-color: rgb(10, 137, 255);
   border: 1px solid black;
   color: white;
 }
 
-.main-menu > li {
-  min-width: 100px;
-}

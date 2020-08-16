@@ -37,7 +37,7 @@ export default class Post extends RC {
         } else if (response.data.msg === 'fail') {
         alert("Fix your shit.")
         }
-        })
+        }).then(e.target.reset());
         }
         
         resetForm(){
@@ -65,7 +65,7 @@ export default class Post extends RC {
         <textarea id="copy" rows="10" cols="100" placeholder="Start typing!"></textarea>
                 
                 <p>
-                    <button type="submit" value="Create" >Send it!</button></p>
+                    <button type="submit" value="Create" >Make 'em jealous!</button></p>
                     </form>
             </Page>
             </div>
